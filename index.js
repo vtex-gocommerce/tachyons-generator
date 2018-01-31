@@ -7,6 +7,7 @@ const DEFAULT_CONFIG = require('./config')
 
 const generateDocs = require('./docs')
 const generate = require('./lib/generate')
+const generateSrc = require('./lib/generateSrc')
 const assembleCss = require('./lib/assemble-css')
 
 module.exports = config => {
@@ -17,6 +18,7 @@ module.exports = config => {
     const modules = await generate(_config, mediaQueries)
 
     const post = await assembleCss(modules, _config)
+    const src = generateSrc(modules, _config)
 
     const min = await buildCss(post, { minify: true })
     const css = await buildCss(post)
@@ -28,7 +30,8 @@ module.exports = config => {
       modules,
       css: css.css,
       min: min.css,
-      docs
+      docs,
+      src
     }
   }
 
