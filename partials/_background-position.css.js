@@ -23,4 +23,12 @@ module.exports = `
   background-repeat: no-repeat;
   background-position: center left;
 }
+
+.bg-x {
+  background-repeat: repeat-x!important;
+}
+
+.bg-y {
+  background-repeat: repeat-y!important;
+}
 `
