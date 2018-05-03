@@ -97,4 +97,16 @@ module.exports = `
 .bg-animate:focus {
   transition: background-color .15s ease-in-out;
 }
+
+.border-animate,
+.border-animate:hover,
+.border-animate:focus {
+  transition: border-color .15s ease-in-out;
+}
+
+.all-animate,
+.all-animate:hover,
+.all-animate:focus {
+  transition: all .15s ease-in-out;
+}
 `
