@@ -14,6 +14,7 @@ module.exports = (config, { min, modules }) => {
       <head>
         <meta charset="utf-8">
         <title>CUSTOM TACHYONS - Css Toolkit</title>
+        <<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/vtex/vtex-tachyons/master/tachyons.css"/>
         <style>
           ${min}
           ${cxs.css()}
