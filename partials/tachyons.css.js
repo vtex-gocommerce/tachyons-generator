@@ -34,7 +34,7 @@ module.exports = `/* TACHYONS (customized) | https://github.com/tachyons-css/tac
 // @import './_display';
 // @import './_flexbox';
 // @import './_floats';
-// @import './_font-family';
+@import './_font-family';
 // @import './_font-style';
 // @import './_font-weight';
 // @import './_forms';
