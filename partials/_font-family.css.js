@@ -2,20 +2,20 @@ module.exports = `
 
 @font-face {
   font-family: 'ZeitungMicroPro';
-  src: url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Extralight.eot');
-  src: url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Extralight.eot?#iefix') format('embedded-opentype'),
-    url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Extralight.woff2') format('woff2'),
-    url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Extralight.woff') format('woff');
+  src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Extralight.eot');
+  src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Extralight.eot?#iefix') format('embedded-opentype'),
+    url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Extralight.woff2') format('woff2'),
+    url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Extralight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ZeitungMicroPro';
-  src: url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Regular.eot');
-  src: url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Regular?#iefix') format('embedded-opentype'),
-    url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Regular.woff2') format('woff2'),
-    url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Regular.woff') format('woff');
+  src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Regular.eot');
+  src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Regular?#iefix') format('embedded-opentype'),
+    url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Regular.woff2') format('woff2'),
+    url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,30 +23,30 @@ module.exports = `
 
 @font-face {
   font-family: 'ZeitungMicroPro';
-  src: url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold.eot');
-  src: url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold?#iefix') format('embedded-opentype'),
-    url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold.woff2') format('woff2'),
-    url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold.woff') format('woff');
+  src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold.eot');
+  src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold?#iefix') format('embedded-opentype'),
+    url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold.woff2') format('woff2'),
+    url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ZeitungMicroPro';
-  src: url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Bold.eot');
-  src: url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Bold?#iefix') format('embedded-opentype'),
-    url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Bold.woff2') format('woff2'),
-    url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Bold.woff') format('woff');
+  src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Bold.eot');
+  src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Bold?#iefix') format('embedded-opentype'),
+    url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Bold.woff2') format('woff2'),
+    url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'ZeitungMicroPro';
-  src: url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Black.eot');
-  src: url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Black?#iefix') format('embedded-opentype'),
-    url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Black.woff2') format('woff2'),
-    url('//statics.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Black.woff') format('woff');
+  src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Black.eot');
+  src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Black?#iefix') format('embedded-opentype'),
+    url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Black.woff2') format('woff2'),
+    url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
 }
