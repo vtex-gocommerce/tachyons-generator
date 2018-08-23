@@ -27,7 +27,7 @@ module.exports = `
   src: url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold?#iefix') format('embedded-opentype'),
     url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold.woff2') format('woff2'),
     url('//static.gocommerce.com/assets/fonts/zeitung-micro-pro/ZeitungMicroPro-Semibold.woff') format('woff');
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
