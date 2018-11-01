@@ -51,7 +51,7 @@ module.exports = `
   font-style: normal;
 }
 
-body, button, input, optgroup, select, textarea, .zeitungMicroPro {
+body, button, input, optgroup, select, textarea, .zeitungMicroGC {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'ZeitungMicroGC',
