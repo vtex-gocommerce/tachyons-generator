@@ -11,7 +11,6 @@ module.exports = `/* TACHYONS (customized) | https://github.com/tachyons-css/tac
  */
 
 
-/* External Library Includes */
 @import './_normalize';
 
 
