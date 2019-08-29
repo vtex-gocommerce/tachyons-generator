@@ -40,7 +40,7 @@
     "postcss-class-postfix": "^1.0.0",
     "postcss-class-prefix": "^0.3.0",
     "postcss-conditionals": "^2.1.0",
-    "postcss-css-variables": "^0.8.1",
+    "postcss-css-variables": "^0.13.0",
     "postcss-custom-media": "^6.0.0",
     "postcss-discard-comments": "^4.0.2",
     "postcss-extend-rule": "^2.0.0",
@@ -49,7 +49,8 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "strip-css-comments": "^3.0.0",
-    "strip-css-media-queries": "^1.0.0"
+    "strip-css-media-queries": "^1.0.0",
+    "tachyons-build-css": "^1.5.1"
   },
   "devDependencies": {
     "ava": "^0.22.0",

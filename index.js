@@ -26,15 +26,26 @@ module.exports = config => {
   }
 
   generator.generate = async (options) => {
-    options = Object.assign({}, DEFAULT_OPTIONS, options)
 
     const modules = await generate(_config, mediaQueries)
 
     const post = await assembleCss(modules, _config)
+    const src = generateSrc(modules, _config)
 
-    const css = await buildCss(post, options)
+    const min = await buildCss(post, { compileVars: true, minify: true })
+    const css = await buildCss(post, { compileVars: true })
 
-    return css.css
+    const docs = generateDocs(_config, { modules, min: min.css })
+
+    return {
+      post,
+      modules,
+      css: css.css,
+      min: min.css,
+      docs,
+      src
+    }
+
   }
 
   generator.generatePrint = async ({ key = 'print', ...options } = {}) => {
@@ -49,7 +60,7 @@ module.exports = config => {
     const post = await assembleCss(modules, _config)
     const src = generateSrc(modules, _config)
 
-    const css = await buildCss(post, { minify: true })
+    const css = await buildCss(post, { compileVars: true, minify: true })
 
     const docs = generateDocs(_config, { modules, min: css.css })
 
